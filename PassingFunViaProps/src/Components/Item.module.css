@@ -1,0 +1,14 @@
+.bgPink {
+  background-color: pink;
+  color: rgb(118, 34, 34);
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.btn {
+  float: right;
+  border: none;
+  padding: 4px 18px;
+  background-color: cornsilk;
+
+}
