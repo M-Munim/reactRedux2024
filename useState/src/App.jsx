@@ -12,24 +12,19 @@ function App() {
   let onKeyDown = (e) => {
     if (e.key === 'Enter') {
       let foodItem = e.target.value;
-      e.target.value = ""
+      e.target.value = "";
       let newArray = [...foodItems, foodItem]
       setfoodItems(newArray)
     }
   }
 
   return (
-    <>
-      <Container >
-        <FoodInput handleOnChange={onKeyDown} />
-        <ErrorMsg errItems={foodItems} para={"Error hy bhai"} />
-        <FoodItems items={foodItems} />
-      </Container>
-
-      {/* <Container asdf={"asdfghjkl"}>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatem sint cupiditate laboriosam soluta vero, sunt mollitia est debitis sequi culpa totam ut odio delectus excepturi, officia ratione illo impedit!</p>
-      </Container> */}
-    </>
+    <Container >
+      <h1>Healthy Food</h1>
+      <FoodInput handleOnChange={onKeyDown} />
+      <ErrorMsg errItems={foodItems} para={"Error hy bhai"} />
+      <FoodItems items={foodItems} />
+    </Container>
   )
 }
 
