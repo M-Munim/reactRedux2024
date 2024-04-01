@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #070F2B;
+  color: #9290C3;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+h1 {
+  font-weight: 700 !important;
+}
+
+input {
+  width: 100%;
+  background-color: white;
+  padding: 5px;
+}
+
+
+.genBtn {
+  min-width: 90px;
+  margin: 5px 0px;
+}
+
+.genRow {
+  display: flex;
+  align-items: center;
+  margin: 8px 5px;
+}
+
+.item-container {
+  text-align: left;
+}
